@@ -1,0 +1,21 @@
+{
+    "name": "kidkang/laravel-oss",
+    "description": "laravel5.5 oss",
+    "type": "library",
+    "require": {
+        "johnlui/aliyun-oss": "2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kidkang",
+            "email": "723616880@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Kd\\Oss\\":"src/"
+        }
+    }    
+}
